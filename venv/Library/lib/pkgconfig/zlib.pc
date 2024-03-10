@@ -1,0 +1,13 @@
+prefix=E:/Chatbot/venv/Library
+exec_prefix=E:/Chatbot/venv/Library
+libdir=E:/Chatbot/venv/Library/lib
+sharedlibdir=E:/Chatbot/venv/Library/lib
+includedir=E:/Chatbot/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
